@@ -1,0 +1,15 @@
+remove all donation things and move items into normal shops
+
+adjust all items missing stats
+
+move donation area to main area
+
+change cache screen for own dev
+
+
+remove all valius infomation
+
+
+add  construction skill
+
+fix map //opens up new link to main game map
