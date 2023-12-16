@@ -419,20 +419,14 @@
       },
       {
         "id": 20240,
-        "defaultAmount": 10,
-        "cost": 3
-      },
-      {
-        "id": 33472,
-        "defaultAmount": 10,
-        "cost": 20
+        "defaultAmount": 10
       }
           ],
     "name": "Cosmetics",
     "sellModifier": 0.7,
     "buyModifier": 1.0,
     "canSellTo": false,
-    "currency": "DONATOR_TOKENS",
+    "currency": "COINS",
     "generalStore": false
   }
 ]

@@ -20,7 +20,7 @@ public enum TabbedShop {
 	POINTS("Point Reward Shops", 125, 126, 123, 119),//pvm points, boss points, skill points, blood money
 	AVA("Ava's Devices", 124),
 	RFD_GLOVES("Culinaromancer's Shop", 14),
-	DONATOR_STORE("Donator Shops", 133, 131, 130, 132, 134),
+	DONATOR_STORE("Cosmetics and More", 133, 131, 130, 132, 134),
 	SLAYER_STORE("Slayer Store", 44),
 	PRESTIGE_STORE("Prestige Store", 120),
 	ACHIEVEMENT_STORE("Achievement Shop", 78),

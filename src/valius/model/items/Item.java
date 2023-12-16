@@ -18,12 +18,7 @@ public class Item {
 
 	private boolean stackable;
 
-	/**
-	 * Constructs a new game item with an id and amount of 0
-	 * 
-	 * @param id the id of the item
-	 * @param amount the amount of the item
-	 */
+
 	public Item(int id) {
 		this.id = id;
 		this.amount = 1;
@@ -99,11 +94,7 @@ public class Item {
 		return amount;
 	}
 
-	/**
-	 * Sets the amount of the game item
-	 * 
-	 * @param the amount
-	 */
+
 	public void setAmount(int amount) {
 		this.amount = amount;
 	}

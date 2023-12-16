@@ -92,7 +92,7 @@
     "sellModifier": 0.7,
     "buyModifier": 1.0,
     "canSellTo": false,
-    "currency": "DONATOR_TOKENS",
+    "currency": "COINS",
     "generalStore": false
   }
 ]
