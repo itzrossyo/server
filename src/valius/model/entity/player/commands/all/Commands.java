@@ -39,8 +39,8 @@ public class Commands extends Command {
 		c.getPA().sendFrame126("", counter++);
 		c.getPA().sendFrame126("@dre@Donators Only", counter++);
 		//noinspection UnusedAssignment
-		//counter = sendCommands(c, "donator", counter);
-		//c.getPA().showInterface(8134);
+		counter = sendCommands(c, "donator", counter);
+		c.getPA().showInterface(8134);
 	}
 
 	public int sendCommands(Player player, String rank, int counter) {
