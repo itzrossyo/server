@@ -14,7 +14,7 @@ public class Dperks extends Command {
 
 	@Override
 	public void execute(Player c, String input) {
-		c.getPA().sendString("https://valius.net/community/index.php?/topic/147-donator-ranks-perks/", 12000);
+		//c.getPA().sendString("https://valius.net/community/index.php?/topic/147-donator-ranks-perks/", 12000);
 	}
 
 	@Override

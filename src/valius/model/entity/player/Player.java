@@ -1639,9 +1639,9 @@ public class Player extends Entity {
 			 * Welcome messages
 			 */
 			sendMessage("<img=16>@blu@Welcome to " + Config.SERVER_NAME + ".");
-			sendMessage("<img=16>@blu@Make sure to join our ::Discord chat for Giveaways & to keep up to date on the server!");
-			sendMessage("<img=16>@blu@Make sure to ::vote every day for awesome rewards. [NEW: VOTE for Donator!]");
-			sendMessage("<img=16>@blu@Type ::Dperks to view the benefits of donating & ::Donate to donate for tokens!");
+			//sendMessage("<img=16>@blu@Make sure to join our ::Discord chat for Giveaways & to keep up to date on the server!");
+			//sendMessage("<img=16>@blu@Make sure to ::vote every day for awesome rewards. [NEW: VOTE for Donator!]");
+			//sendMessage("<img=16>@blu@Type ::Dperks to view the benefits of donating & ::Donate to donate for tokens!");
 			//sendMessage("<img=16>@blu@<shad>Donator token purchases are now 25% OFF until July 31st!");
 			if (DoubleExperience.isDoubleExperience(this)) {	
 			sendMessage("@red@DOUBLE EXP IS: @gre@ ACTIVE!");
@@ -1942,12 +1942,12 @@ public class Player extends Entity {
 		getPA().sendFrame126("@or1@@cr9@ Loyalty points = @gre@" + this.loyaltyPoints,10239);
 
 
-		getPA().sendFrame126("@or1@View the forums",47514);
-		getPA().sendFrame126("@or1@Join our Discord",47515);
-		getPA().sendFrame126("@or1@Buy Valius Tokens",47516);
-		getPA().sendFrame126("@or1@View our Youtube Channel",47517);
-		getPA().sendFrame126("@or1@View community guides ",47518);
-		getPA().sendFrame126("@or1@Valius Price Guide ",47519);
+		//getPA().sendFrame126("@or1@View the forums",47514);
+		//getPA().sendFrame126("@or1@Join our Discord",47515);
+		//getPA().sendFrame126("@or1@Buy Valius Tokens",47516);
+		//getPA().sendFrame126("@or1@View our Youtube Channel",47517);
+		//getPA().sendFrame126("@or1@View community guides ",47518);
+		//getPA().sendFrame126("@or1@Valius Price Guide ",47519);
 
 	}
 	public void addEvents() {
@@ -2900,37 +2900,37 @@ public class Player extends Entity {
 			if (getRights().isOrInherits(Right.IRONMAN) || getRights().isOrInherits(Right.GROUP_IRONMAN) || getRights().isOrInherits(Right.ULTIMATE_IRONMAN) || getRights().isOrInherits(Right.HC_IRONMAN) || getRights().isOrInherits(Right.HELPER) || getRights().isOrInherits(Right.MODERATOR)) {
 				getRights().add(Right.SAPPHIRE);
 				
-				sendMessage("Your hidden donator rank is now active.");
+				sendMessage("");
 			} else {
 				getRights().setPrimary(Right.SAPPHIRE);
-				sendMessage("Please relog to receive your donator rank.");
+				//sendMessage("Please relog to receive your donator rank.");
 			}
 		}
 		if (amDonated >= 25 && amDonated < 50) {
 			if (getRights().isOrInherits(Right.IRONMAN) || getRights().isOrInherits(Right.GROUP_IRONMAN)  || getRights().isOrInherits(Right.ULTIMATE_IRONMAN) || getRights().isOrInherits(Right.HC_IRONMAN) || getRights().isOrInherits(Right.HELPER) || getRights().isOrInherits(Right.MODERATOR)) {
 				getRights().add(Right.EMERALD);
-				sendMessage("Your hidden super donator rank is now active.");
+				//sendMessage("Your hidden super donator rank is now active.");
 			} else {
 				getRights().setPrimary(Right.EMERALD);
-				sendMessage("Please relog to receive your super donator rank.");
+				//sendMessage("Please relog to receive your super donator rank.");
 			}
 		}
 		if (amDonated >= 50 && amDonated < 100) {
 			if (getRights().isOrInherits(Right.IRONMAN) || getRights().isOrInherits(Right.GROUP_IRONMAN) || getRights().isOrInherits(Right.ULTIMATE_IRONMAN) || getRights().isOrInherits(Right.HC_IRONMAN) || getRights().isOrInherits(Right.HELPER) || getRights().isOrInherits(Right.MODERATOR)) {
 				getRights().add(Right.RUBY);
-				sendMessage("Your hidden extreme donator rank is now active.");
+				//sendMessage("Your hidden extreme donator rank is now active.");
 			} else {
 				getRights().setPrimary(Right.RUBY);
-				sendMessage("Please relog to receive your extreme donator rank.");
+				//sendMessage("Please relog to receive your extreme donator rank.");
 			}
 		}
 		if (amDonated >= 100 && amDonated < 200) {
 			if (getRights().isOrInherits(Right.IRONMAN) || getRights().isOrInherits(Right.GROUP_IRONMAN) || getRights().isOrInherits(Right.ULTIMATE_IRONMAN) || getRights().isOrInherits(Right.HC_IRONMAN) || getRights().isOrInherits(Right.HELPER) || getRights().isOrInherits(Right.MODERATOR)) {
 				getRights().add(Right.DIAMOND);
-				sendMessage("Your hidden donator rank is now active.");
+				//sendMessage("Your hidden donator rank is now active.");
 			} else {
 				getRights().setPrimary(Right.DIAMOND);
-				sendMessage("Please relog to receive your donator rank.");
+				//sendMessage("Please relog to receive your donator rank.");
 			}
 		}
 		if (amDonated > 100) {
@@ -2939,31 +2939,31 @@ public class Player extends Entity {
 		if (amDonated >= 200 && amDonated < 500) {
 			if (getRights().isOrInherits(Right.IRONMAN)  || getRights().isOrInherits(Right.GROUP_IRONMAN) || getRights().isOrInherits(Right.ULTIMATE_IRONMAN) || getRights().isOrInherits(Right.HC_IRONMAN) || getRights().isOrInherits(Right.HELPER) || getRights().isOrInherits(Right.MODERATOR)) {
 				getRights().add(Right.DRAGONSTONE);
-				sendMessage("Your hidden super donator rank is now active.");
+				//sendMessage("Your hidden super donator rank is now active.");
 			} else {
 				getRights().setPrimary(Right.DRAGONSTONE);
-				sendMessage("Please relog to receive your super donator rank.");
+				//sendMessage("Please relog to receive your super donator rank.");
 			}
 		}
 		if (amDonated >= 500 && amDonated < 1000) {
 			if (getRights().isOrInherits(Right.IRONMAN) || getRights().isOrInherits(Right.GROUP_IRONMAN) || getRights().isOrInherits(Right.ULTIMATE_IRONMAN) || getRights().isOrInherits(Right.HC_IRONMAN) || getRights().isOrInherits(Right.HELPER) || getRights().isOrInherits(Right.MODERATOR)) {
 				getRights().add(Right.ONYX);
-				sendMessage("Your hidden extreme donator rank is now active.");
+				//sendMessage("Your hidden extreme donator rank is now active.");
 			} else {
 				getRights().setPrimary(Right.ONYX);
-				sendMessage("Please relog to receive your extreme donator rank.");
+				//sendMessage("Please relog to receive your extreme donator rank.");
 			}
 		}
 		if (amDonated >= 1000) {
 			if (getRights().isOrInherits(Right.IRONMAN) || getRights().isOrInherits(Right.GROUP_IRONMAN) || getRights().isOrInherits(Right.ULTIMATE_IRONMAN) || getRights().isOrInherits(Right.HC_IRONMAN) || getRights().isOrInherits(Right.HELPER) || getRights().isOrInherits(Right.MODERATOR)) {
 				getRights().add(Right.ZENYTE);
-				sendMessage("Your hidden legendary donator rank is now active.");
+				//sendMessage("Your hidden legendary donator rank is now active.");
 			} else {
 				getRights().setPrimary(Right.ZENYTE);
-				sendMessage("Please relog to receive your legendary donator rank.");
+				//sendMessage("Please relog to receive your legendary donator rank.");
 			}
 		}
-		sendMessage("Your updated total amount donated is now $" + amDonated + ".");
+		//sendMessage("Your updated total amount donated is now $" + amDonated + ".");
 	}
 
 	public int getPrivateChat() {

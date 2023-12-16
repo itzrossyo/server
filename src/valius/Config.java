@@ -4,7 +4,7 @@ public class Config {
 
 	public static boolean local = false;
 
-	public static String SERVER_NAME = "Valius";
+	public static String SERVER_NAME = "RSPS";
 
 	public static int PLAYERMODIFIER = 0;
 

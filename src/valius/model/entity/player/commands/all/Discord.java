@@ -14,7 +14,7 @@ public class Discord extends Command {
 
 	@Override
 	public void execute(Player c, String input) {
-		c.getPA().sendString("https://discord.gg/UQABRTC", 12000);
+		//c.getPA().sendString("https://discord.gg/UQABRTC", 12000);
 	}
 
 	@Override

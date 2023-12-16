@@ -1313,21 +1313,21 @@ public class ClickingButtons implements PacketType {
 			c.forcedChat("I currently have: " + c.loyaltyPoints + " Loyalty Points.");
 			break;
 		case 47514:
-			c.getPA().sendFrame126("https://www.valius.net/community", 12000);
+			//c.getPA().sendFrame126("https://www.valius.net/community", 12000);
 			break;
 		case 47515:
-			c.getPA().sendFrame126("https://www.discord.gg/u3yqac9", 12000);
+			//c.getPA().sendFrame126("https://www.discord.gg/u3yqac9", 12000);
 			break;
 		case 47516:
-			c.getPA().sendFrame126("https://valius.net/community/index.php?/donate/", 12000);
+			//c.getPA().sendFrame126("https://valius.net/community/index.php?/donate/", 12000);
 		case 47517:
-			c.getPA().sendFrame126("https://www.youtube.com/channel/UCtJER2yNaPEWTM_fcZOWqUQ", 12000);
+			//c.getPA().sendFrame126("https://www.youtube.com/channel/UCtJER2yNaPEWTM_fcZOWqUQ", 12000);
 			break;
 		case 47518:
-			c.getPA().sendFrame126("http://www.valius.net/community/index.php?/topic/178-valius-price-guide", 12000);
+			//c.getPA().sendFrame126("http://www.valius.net/community/index.php?/topic/178-valius-price-guide", 12000);
 			break;
 		case 47519:
-			c.getPA().sendFrame126("http://valius.net/community/index.php?/topic/178-valius-price-guide/", 12000);
+			//c.getPA().sendFrame126("http://valius.net/community/index.php?/topic/178-valius-price-guide/", 12000);
 			break;
 		case 47502:
 			List<Player> staff = PlayerHandler.nonNullStream().filter(Objects::nonNull).filter(p -> p.getRights().isOrInherits(Right.HELPER)).collect(Collectors.toList());

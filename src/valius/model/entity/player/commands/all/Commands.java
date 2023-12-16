@@ -28,29 +28,19 @@ public class Commands extends Command {
 		counter = sendCommands(c, "all", counter);
 		c.getPA().sendFrame126("", counter++);
 		c.getPA().sendFrame126("::Help - Sends a ticket to all ONLINE staff members", counter++);
-		c.getPA().sendFrame126("::Vote - Sends you to the voting page", counter++);
 		c.getPA().sendFrame126("::Reward 1 - Claims all Vote rewards", counter++);
-		c.getPA().sendFrame126("::Mobile - A guide to play Valius on any mobile device", counter++);
 		c.getPA().sendFrame126("::Starterguide - A guide for new players to learn the ropes", counter++);
-		c.getPA().sendFrame126("::Donate - Sends you to the Donation page", counter++);
-		c.getPA().sendFrame126("::Claim - Used to claim donation rewards", counter++);
-		c.getPA().sendFrame126("::Dperks - Sends you to the Donation Info page", counter++);
-		c.getPA().sendFrame126("::Discord - Sends you an Invite to our Discord", counter++);
-		c.getPA().sendFrame126("::Highscores - Takes you to the highscores page", counter++);
-		c.getPA().sendFrame126("::Forums - Sends you to the Forum main page", counter++);
 		c.getPA().sendFrame126("::Explock - Locks XP gains", counter++);
 		c.getPA().sendFrame126("::Toggledrop - Toggles the message when droping items", counter++);
 		c.getPA().sendFrame126("::Home - Teleports you to the home area", counter++);
-		c.getPA().sendFrame126("::Forums - Takes you to the Forums main page", counter++);
-		c.getPA().sendFrame126("::Rules - Sends you to the Rules page", counter++);
 		c.getPA().sendFrame126("::Staff - See all online staff members", counter++);
 		c.getPA().sendFrame126("::Stuck - use this to send a message to ALL online staff", counter++);
 		c.getPA().sendFrame126("::Stuckraids - Use this if oyu get stuck inside raids 1", counter++);
 		c.getPA().sendFrame126("", counter++);
 		c.getPA().sendFrame126("@dre@Donators Only", counter++);
 		//noinspection UnusedAssignment
-		counter = sendCommands(c, "donator", counter);
-		c.getPA().showInterface(8134);
+		//counter = sendCommands(c, "donator", counter);
+		//c.getPA().showInterface(8134);
 	}
 
 	public int sendCommands(Player player, String rank, int counter) {
